@@ -97,7 +97,7 @@ if __name__ == "__main__":
 
         with open("C:\\Users\\JENILPATEL\\Desktop\\myfile.txt","w") as file:
             file.write("User_data: "+ history)
-            file.save(
+            file.save()
         file.close()
         # open the text file in read mode
         f = open("/home/ubuntu/whatsapp/myfile.txt","r")
